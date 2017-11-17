@@ -1,0 +1,114 @@
+.banner1{
+    background:url('../images/join01.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    background-size:cover;
+    padding: 138px 0 0;
+    text-align: center;
+    position: relative;
+    min-height: 1000px;
+}
+.join02{
+    max-width:30%;
+    margin:0 auto;
+    padding:56% 0 0 0;  
+}
+.join03,.join07,.join12{
+    max-width:400px;
+    margin:0 auto;
+    padding:5% 0;
+}
+div.step3-tracking p {
+    margin-top: 15px;
+    text-align: center;
+}
+.jumbotron{
+    position:relative;
+    text-align: center;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("../images/join08.jpg") repeat center center;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+    max-width:100%;
+}
+img.jumbotron-icon{
+    max-height:334px;
+}
+img.step3-icon{
+    max-height:260px;
+}
+img.step4-icon{
+    max-height:220px;
+}
+.jump-banner{
+    min-height:500px;
+    background:url('../images/join16.jpg') no-repeat center center;
+    background-size:cover;
+}
+.ft2-icon{
+    padding-top:50px;
+}
+.ft3-icon{
+    max-width: 46%;
+    padding-top:50px;
+}
+@media screen and (max-width: 1180px) {
+    .join02{
+        padding:68% 0 0 0; 
+    }
+}
+@media screen and (max-width: 767px) {
+    .join02{
+        max-width:100%;
+        padding:56% 20% 14% 20%;
+    }
+    .banner1{
+        margin-top:51px;
+        padding: 32px 0 0;
+        min-height:300px;
+    }
+    img.progress-icon {
+    height: 46px;
+    margin-top: 25px;
+    }
+    img.jumbotron-icon{
+        height: 200px;
+        margin-top: 25px;
+    }
+    .jumbotron::after{
+        background:none;
+    }
+    .join03,.join07,.join12{
+        max-width:210px;
+    }
+    img.step3-icon{
+        max-height:100px;
+        margin-top: 25px;
+    }
+    img.step4-icon{
+        max-height:100px;
+    }
+    .jump-banner{
+        min-height:220px;
+    }
+    .ft1-icon{
+        max-width:100%;
+    }
+    .ft2-icon{
+        padding-top:0;
+        max-width:50%;
+    }
+    .ft3-icon{
+        max-width: 100%;
+        padding-top:20px;
+    }
+}
