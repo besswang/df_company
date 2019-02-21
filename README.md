@@ -1,4 +1,4 @@
-# join
+# df_company
 官网
 有待优化的地方：
 1，gulp部署;
@@ -6,4 +6,4 @@
 3,图片懒加载，准备用lazysizes;
 4,字体.
 
-[预览](https://besswang.github.io/join/)
+[预览](https://besswang.github.io/df_company/)
